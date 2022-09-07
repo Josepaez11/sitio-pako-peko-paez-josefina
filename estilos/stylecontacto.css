@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 100%;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50px;
+    text-align: justify;
+    padding: 10px;
+}
+body{
+    background-color: #1B998B;
+}
+.menu{
+    padding: 0px 20px 0px 0px;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    position:sticky;
+    top:0px;
+    left:900px;
+    text-decoration: none;
+    background-color: #E6AF2E;
+}
+.menu-item{
+    display: inline-block;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding:15px;
+    font-size: normal;
+}
+a:link,
+a:visited,
+a:active{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    padding: 20px;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    right: 450px;
+    font-family: 'Roboto', sans-serif; color: aliceblue;
+    text-align: center;
+}
+.titulo-form{
+    text-align: center;
+}
+.borde{
+    padding: 20px;
+    color: aliceblue;
+}
+.botones{
+    position: absolute;
+    top: 480px;
+    left: 620px;
+    right: 450px;
+}
+.instagram{
+    width: 30px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif; color: aliceblue;
+    background-color: #E6AF2E;
+    padding-top: 25px;
+    padding-left: 580px;
+    padding-right: 600px;
+    padding-bottom:25px;
+}
