@@ -52,6 +52,19 @@ h1{
 	color: #F71735;
 	padding-left: 20px;
 }
+h1{
+	animation-duration: 2s;
+	animation-name:aparecer;
+	animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 .parrafo{
 	grid-area: parrafo;
 	color: rgb(114, 109, 109);

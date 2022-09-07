@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #1B998B;
+    background-image:linear-gradient(to left, rgb(7, 203, 168) rgb(255, 0, 157))
 }
 html{
     font-size: 100%;

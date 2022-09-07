@@ -15,7 +15,20 @@ h1{
     padding: 10px;
 }
 body{
-    background-color: #1B998B;
+    background-image:linear-gradient(to left, rgb(7, 203, 168) rgb(255, 0, 157))
+}
+h1{
+	animation-duration: 2s;
+	animation-name:aparecer;
+	animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 .menu{
     padding: 0px 20px 0px 0px;
